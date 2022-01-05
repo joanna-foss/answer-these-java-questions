@@ -8,9 +8,7 @@ import java.util.stream.IntStream;
 //3. Look for 2 other alternative solutions.
 
 public class FizzBuzz {
-    public static void solution(int num1, int num2){
-        int start = num1;
-        int end = num2;
+    public static void solution(int start, int end){
         List<Integer> range = IntStream.rangeClosed(start, end).boxed().collect(Collectors.toList());
 
         for(int num : range) {
