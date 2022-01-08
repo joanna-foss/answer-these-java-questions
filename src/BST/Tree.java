@@ -15,12 +15,26 @@ public class Tree {
             right = null;
         }
     }
+    
+//    public Node traverseTheTree(Tree tree, Node node){
+//        int root = 0;
+//
+//        return root;
+//    }
 
     public void insert(Node node, int data){
 
     }
-    
-    public void traverseTheTree(Node node){
+
+    public Tree perfectTreePostOrder(int height){
+        Tree test = new Tree();
+
+
+
+        return test;
+    }
+
+    public static void main(String[] args) {
 
     }
 }
