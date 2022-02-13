@@ -1,15 +1,5 @@
 package BST;
 
-class BinaryTreeNode<Integer> {
-    Integer data;
-    BinaryTreeNode<Integer> left;
-    BinaryTreeNode<Integer> right;
-
-    public BinaryTreeNode(Integer data) {
-        this.data = data;
-    }
-}
-
 public class LeftSum {
     public static long leftSum(BinaryTreeNode<Integer> root) {
        return calculate(root, false);
