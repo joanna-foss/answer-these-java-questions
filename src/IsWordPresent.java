@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 public class IsWordPresent {
     public static boolean isPresent(String sentence, String word) {
         boolean present = false;
