@@ -2,11 +2,6 @@ package BST;
 
 import java.util.Scanner;
 
-class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
-}
 public class LongestPath {
     static int totalPaths;
 
