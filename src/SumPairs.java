@@ -11,7 +11,7 @@ class Pair {
     }
 }
 
-public class sumPairs{
+public class SumPairs{
     public static int[][] pairSum(int[] arr, int s) {
         Arrays.sort(arr);
         List<Pair> intPairs = new ArrayList<>();

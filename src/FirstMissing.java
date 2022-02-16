@@ -1,4 +1,4 @@
-public class firstMissing {
+public class FirstMissing {
     public static int findMissing(int[] arr) {
         for(int i = 1; i< arr.length; i++) {
             if(!isPresent(arr, i)){
